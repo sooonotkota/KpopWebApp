@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssapp.css">
     <title>Hybe Corporation</title>
 </head>
 
@@ -13,13 +13,11 @@
 
     <div class="main-wrapper">
         <nav class="navigation">
-            <!-- Inserting Search Button -->
             <form class="search-form"> <label for="group-search"></label> <input type="text" id="group-search"
                     name="group-search" placeholder="Looking for a specific group?"> <button
                     type="submit">Search</button>
             </form>
             <ul class="left-list">
-                <!-- Other Groups in Hybe -->
                 <li><a href="https://ibighit.com/leehyun/eng/" target="_blank">Lee Hyun/Midnatt</a></li>
                 <li><a href="https://ibighit.com/bts/eng/" target="_blank">BTS</a></li>
                 <li><a href="https://ibighit.com/txt/eng/" target="_blank">Tomorrow by Together</a></li>
@@ -44,9 +42,7 @@
         <div class="content-wrapper">
             <div class="container">
                 <h1>Hybe Corporation</h1>
-                <!-- Inserting Theme Button -->
                 <button class="theme-button">Change theme</button>
-                <!-- Inserting Hybe Video -->
                 <div class="video-wrapper">
                     <iframe src="https://www.youtube.com/embed/XEP6s7GfrUE" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -135,20 +131,6 @@
             </div>
         </div>
     </div>
-    <script>
-        function changeTheme() {
-            let body = document.querySelector("body");
-
-            if (body.classList.contains("dark")) {
-                body.classList.remove("dark");
-            } else {
-                body.classList.add("dark");
-            }
-        }
-
-        let themeButton = document.querySelector(".theme-button");
-        themeButton.addEventListener("click", changeTheme);
-    </script>
 </body>
 
 </html>
