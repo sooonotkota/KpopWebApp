@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final_page_1.css">
+    <title>Hybe Corporation</title>
+</head>
+
+<body class="dark">
+
+    <div class="main-wrapper">
+        <nav class="navigation">
+            <!-- Inserting Search Button -->
+            <form class="search-form"> <label for="group-search"></label> <input type="text" id="group-search"
+                    name="group-search" placeholder="Looking for a specific group?"> <button
+                    type="submit">Search</button>
+            </form>
+            <ul class="left-list">
+                <!-- Other Groups in Hybe -->
+                <li><a href="https://ibighit.com/leehyun/eng/" target="_blank">Lee Hyun/Midnatt</a></li>
+                <li><a href="https://ibighit.com/bts/eng/" target="_blank">BTS</a></li>
+                <li><a href="https://ibighit.com/txt/eng/" target="_blank">Tomorrow by Together</a></li>
+                <li><a href="https://beliftlab.com/artist/profile/ENHYPEN" target="_blank">Enhypen</a></li>
+                <li><a href="https://beliftlab.com/artist/profile/ILLIT" target="_blank">Illit</a></li>
+                <li><a href="https://sourcemusic.com/artist/profile/LE%20SSERAFIM" target="_blank">Le Sserafim</a></li>
+                <li><a href="https://www.pledis.co.kr/artist/detail/bumzu/" target="_blank">Bumzu</a></li>
+                <li><a href="https://www.pledis.co.kr/artist/detail/singer_baekho/" target="_blank">Baekho (Kang Dong
+                        Ho)</a></li>
+                <li><a href="https://www.pledis.co.kr/artist/detail/singer_hwangminhyun/" target="_blank">Hwang Min
+                        Hyun</a></li>
+                <li><a href="https://www.pledis.co.kr/artist/detail/seventeen/" target="_blank">Seventeen</a></li>
+                <li><a href="https://www.pledis.co.kr/artist/detail/fromisnine/" target="_blank">Fromis_9</a></li>
+                <li><a href="hhttps://www.pledis.co.kr/artist/detail/TWS/" target="_blank">TWS</a></li>
+                <li><a href="https://kozofficial.com/artist/profile/ZICO/" target="_blank">Zico</a></li>
+                <li><a href="https://kozofficial.com/artist/profile/BOYNEXTDOOR" target="_blank">Boynextdoor</a></li>
+                <li><a href="https://newjeans.kr/" target="_blank">New Jeans</a></li>
+                <li><a href="https://hybelabelsjapan.com/" target="_blank">&Team</a></li>
+                <li><a href="https://www.katseye.world/" target="_blank">Katseye</a></li>
+            </ul>
+        </nav>
+        <div class="content-wrapper">
+            <div class="container">
+                <h1>Hybe Corporation</h1>
+                <!-- Inserting Theme Button -->
+                <button class="theme-button">Change theme</button>
+                <!-- Inserting Hybe Video -->
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/XEP6s7GfrUE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="background">
+                    Hybe Corporation, formerly known as Big Hit Entertainment, is a South Korean entertainment company
+                    founded
+                    in 2005. The company operates as a record label, talent agency, music production company, event
+                    management and concert production company, and music publishing house.
+
+                    Hybe is best known for managing the globally successful boy band BTS, but it has expanded its
+                    portfolio
+                    to include other popular acts like LE SSERAFIM, TOMORROW X TOGETHER (TXT), and ENHYPEN.
+                </p>
+                <table>
+                    <tr>
+                        <th>Le Sserafim</th>
+                        <th>Tomorrow by Together</th>
+                        <th>Enhypen</th>
+                    </tr>
+                    <tr>
+                        <td>$90 USD</td>
+                        <td>$120 USD</td>
+                        <td>$120 USD</td>
+                    </tr>
+                    <tr>
+                        <td>$100 USD</td>
+                        <td>$430 USD</td>
+                        <td>$360 USD</td>
+                    </tr>
+                    <tr>
+                        <td>$117+ USD</td>
+                        <td>$700+ USD</td>
+                        <td>$500+ USD</td>
+                    </tr>
+                </table>
+                <section>
+                    <div class="grid">
+                        <div id="groups">
+                            <div class="group" id="le-sserafim">
+                                <div>
+                                    <h2>Le Sserafim</h2>
+                                    <span class="img">
+                                        <img src="C:\Users\dakot\OneDrive\CSCI-240\Final_Exam_Website\Le Sserafim.jpg"
+                                            alt="Le Sserafim">
+                                    </span>
+                                    <div class="date">Click here to learn more about <a href="Le Sserafimhtml.html"
+                                            class="weblink">Le
+                                            Sserafim</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group" id="tomorrow-by-together">
+                                <div>
+                                    <h2>Tomorrow By Together</h2>
+                                    <span class="img">
+                                        <img src="C:\Users\dakot\OneDrive\CSCI-240\Final_Exam_Website\Tommorow by together.jpeg"
+                                            alt="Tomorrow by Together">
+                                    </span>
+                                    <div class="date">Click here to learn more about <a href="TXThtml.html"
+                                            class="weblink">Tomorrow By
+                                            Together</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group" id="enhypen">
+                                <div>
+                                    <h2>Enhypen</h2>
+                                    <span class="img">
+                                        <img src="C:\Users\dakot\OneDrive\CSCI-240\Final_Exam_Website\enhypen.png"
+                                            alt="Enhypen">
+                                    </span>
+                                    <div class="date">Click here to learn more about <a href="enhypenhtml.html"
+                                            class="weblink">Enhypen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    This project was coded by <strong>Dakota Thomas</strong> and is hosted on <a
+                        href="https://github.com/sooonotkota" class="github" target="_blank">Github</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body");
+
+            if (body.classList.contains("dark")) {
+                body.classList.remove("dark");
+            } else {
+                body.classList.add("dark");
+            }
+        }
+
+        let themeButton = document.querySelector(".theme-button");
+        themeButton.addEventListener("click", changeTheme);
+    </script>
+</body>
+
+</html>
