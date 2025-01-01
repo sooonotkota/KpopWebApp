@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Le_Sserafimcss.css">
+    <title>Le Sserafim</title>
+</head>
+
+<body class="dark">
+    <!-- Wrapper for album covers -->
+    <div class="wrapper">
+        <div class="column">
+            <img src="Fearless.png" class="fearless" alt="Fearless albumcover">
+            <img src="Antifragile.png" class="antifragile" alt="Antifragile albumcover">
+            <img src="Unforgiven.jpg" class="unforgiven" alt="Unforgiven albumcover">
+        </div>
+    </div>
+
+    <!-- Main content container -->
+    <div class="container">
+        <h1>Le Sserafim<br>
+            <strong>Debut: </strong>2022.05.02
+        </h1>
+        <button class="theme-button">Change theme</button>
+        <img src="https://i.ytimg.com/vi/8S9rHj7gTsA/maxresdefault.jpg" alt="Le Sserafim" class="lspic">
+        <h2>Watch their Unforgiven dance practice!</h2>
+        <!-- Description of the group -->
+        <article>
+            LE SSERAFIM, a K-pop girl group under HYBE Labels, was formed with members who already had experience in the
+            industry,
+            including former IZ*ONE members Kim Chaewon and Sakura. The group debuted on May 02, 2022, with a bold and
+            fearless
+            concept, reflected in their name which is an anagram for "I'm fearless".
+        </article>
+
+        <!-- Members section -->
+        <h2 class="pinkmem">Members</h2>
+        <div class="members">
+            <ul>
+                <h4>Yujin</h4>
+                <li>Vocalist, Dancer</li>
+                <h4>Sakura</h4>
+                <li>Vocalist</li>
+                <h4>Chaewon</h4>
+                <li>Leader, Vocalist, Dancer</li>
+                <h4>Kazuha</h4>
+                <li>Vocalist, Dancer, Rapper</li>
+                <h4>Eun-Chae</h4>
+                <li>Dancer, Vocalist, Maknae</li>
+            </ul>
+            <h3>Discography</h3>
+            <p>Fearless - Antifragile - Unforgiven - Perfect Night - Easy - Crazy</p>
+        </div>
+        <div class="backhome">Wanna learn the other dances? <a href="final_page_1.html">Click back to home</a></div>
+    </div>
+
+    <!-- Wrapper for additional album covers -->
+    <div class="wrapper">
+        <div class="column">
+            <img src="PerfectNight.jpg" class="PerfectNight" alt="PerfectNight albumcover">
+            <img src="Easy.png" class="easy" alt="Easy albumcover">
+            <img src="Crazy.jpg" class="crazy" alt="Crazy albumcover">
+        </div>
+    </div>
+
+    <!-- JavaScript for theme change functionality -->
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body");
+
+            if (body.classList.contains("dark")) {
+                body.classList.remove("dark");
+            } else {
+                body.classList.add("dark");
+            }
+        }
+
+        let themeButton = document.querySelector(".theme-button");
+        themeButton.addEventListener("click", changeTheme);
+    </script>
+</body>
+
+</html>

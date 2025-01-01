@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TXTcss.css">
+    <title>Tomorrow by Together</title>
+</head>
+
+<body class="dark">
+    <!-- Wrapper for additional album covers -->
+    <div class="wrapper">
+        <div class="column">
+            <img src="TheDreamChapterStar.jpg" class="star" alt="TheDreamChapterStar albumcover">
+            <img src="TheDreamChapterMagic.jpg" class="magic" alt="TheDreamChapterMagic albumcover">
+            <img src="TheDreamChapterEternity.jpg" class="eternity" alt="TheDreamChapterEternity albumcover">
+            <img src="BlueHour.jpg" class="bluehour" alt="BlueHour albumcover">
+            <img src="TheChaosChapterFreeze.jpg" class="freeze" alt="TheChaosChapterFreeze albumcover">
+            <img src="TheChaosChapterFightOrEscape.jpg" class="fight" alt="TheChaosChapterFightOrEscape albumcover">
+        </div>
+    </div>
+
+    <!-- Main content container -->
+    <div class="container">
+        <h1>Tomorrow By Together </br>
+            <strong>Debut: </strong>2019.02.04
+        </h1>
+        <button class="theme-button">Change theme</button>
+        <img src="https://i.ytimg.com/vi/VfnpetaEXUE/maxresdefault.jpg" alt="TXT" class="TXTimg">
+        <h2>Watch their Sugar Rush Ride dance practice!</h2>
+        <!-- Description of the group -->
+        <article>
+            Can you give me a short 3 sentence debrief on how TXT came together
+            TXT, also known as TOMORROW X TOGETHER, was formed by Big Hit Entertainment and debuted on March 4, 2019.
+            The group
+            consists of five members: Soobin, Yeonjun, Beomgyu, Taehyun, and Huening Kai. Each member was discovered
+            through
+            various unique auditions and showcases, reflecting their diverse talents and personalities.
+        </article>
+        <!-- Members section -->
+        <h2 class="pinkmem">Members</h2>
+        <div class="members">
+            <ul>
+                <h4>Yeonjun</h4>
+                <li>Vocalist, Dancer, Rapper</li>
+                <h4>Soobin</h4>
+                <li>Leader</li>
+                <h4>Taehyun</h4>
+                <li>Vocalist, Dancer</li>
+                <h4>Beomgyu</h4>
+                <li>Visual</li>
+                <h4>HueningKai</h4>
+                <li>Maknae</li>
+            </ul>
+            <h3>Discography</h3>
+            <p><strong>The Dream Chapter:</strong> Star - Magic - Eternity</p>
+            <p><strong>Minisode</strong> 1: Blue Hour - 2: Thursday's Child - 3: Tomorrow</p>
+            <p><strong>The Chaos Chapter:</strong> Freeze - Fight or Escape</p>
+            <p><strong>The Name Chapter:</strong> Temptation - Freefall</p>
+            <p><strong>The Star Chapter:</strong> Sanctuary</p>
+        </div>
+        <div class="backhome">Wanna learn the other dances? <a href="final_page_1.html">Click back to home</a></div>
+    </div>
+
+    <!-- Wrapper for additional album covers -->
+    <div class="wrapper">
+        <div class="column">
+            <img src="ThursdaysChild.png" class="thursday" alt="ThursdaysChild albumcover">
+            <img src="TheNameChapterTemptation.jpg" class="temptation" alt="TheNameChapterTemptation albumcover">
+            <img src="TheNameChapterFreefall.jpg" class="freefall" alt="TheNameChapterFreefall albumcover">
+            <img src="3Tomorrow.jpg" class="minisode3" alt="Minisode3 albumcover">
+            <img src="TheStarChapterSanctuary.jpg" class="sanctuary" alt="TheStarChapterSanctuary albumcover">
+        </div>
+    </div>
+
+    <!-- JavaScript for theme change functionality -->
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body");
+
+            if (body.classList.contains("dark")) {
+                body.classList.remove("dark");
+            } else {
+                body.classList.add("dark");
+            }
+        }
+
+        let themeButton = document.querySelector(".theme-button");
+        themeButton.addEventListener("click", changeTheme);
+    </script>
+</body>
+
+</html>
