@@ -9,7 +9,6 @@ body {
     font-family: sans-serif;
 }
 
-/* Start of Theme Button */
 .dark {
     background: #ffcee4;
     color: white;
@@ -36,9 +35,6 @@ button:hover {
     color: white;
 }
 
-/* End of Theme Button */
-
-/* Start of Album Editing */
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -87,8 +83,6 @@ button:hover {
     filter: contrast(80%);
     transform: scale(1.1);
 }
-
-/* End of Album Editing */
 
 .container {
     background-color: #fff;
